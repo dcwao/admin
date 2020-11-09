@@ -1,5 +1,5 @@
 $.ajax({
-    url: 'csv_data.csv',
+    url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQoFDk4HZ8maYQDzvTD-34MjnxxFm-LzVVjR1uzI_ykHhjvNuioksekrtxROS0-D5ARwu8VtBBq7xH7/pub?gid=0&single=true&output=csv',
     dataType: 'text',
   }).done(successFunction);
   function successFunction(data) {
